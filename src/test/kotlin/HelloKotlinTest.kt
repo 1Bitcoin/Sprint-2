@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
+import org.testng.Assert.assertEquals
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
-import kotlin.test.assertEquals
 
 class HelloKotlinTest {
     lateinit var outputStream: ByteArrayOutputStream
