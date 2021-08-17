@@ -12,7 +12,7 @@ class ProblemA {
             totalPosition = 0
 
             for (i in 1..k) {
-                when(i % 2 == 0) {
+                when (i % 2 == 0) {
                     false -> totalPosition += a
                     true -> totalPosition -= b
                 }
