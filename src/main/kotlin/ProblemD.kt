@@ -9,8 +9,7 @@ class ProblemD {
         for (count in 1..t) {
             n = readInt()
             val numbers = readListLong().sortedDescending()
-            numClients = 1
-            maxProfit = 0
+            numClients = 1; maxProfit = 0
 
             for (i in numbers.indices) {
                 currentProfit = numClients * numbers[i]
